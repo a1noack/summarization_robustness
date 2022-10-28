@@ -7,6 +7,8 @@ The goal of the "Conceal" attacker is to remove the word in the original generat
 
 In the table below, we show how these various attacks affect the ROUGE score (each cell in the table holds the ROUGE-2 score of the model on the perturbed test set samples). We then compare these directed attacks to various undirected textual transformations.
 
+In the table, PEG=PEGASUS, CNN=CNN-Dailymail, Gig=Gigaword.
+
 | Transformation name   | Transformation type | Transformations allowed | PEG/CNN       | PEG/Gig  | PEG/X-Sum | BART/CNN | BART/Gig   | BART/X-Sum  |
 | ------------------- | -------------------   | --------------------- | ------------- | -------- | ------- | ------------- | -------- | ----- |
 | No Attack           |NA| NA                    | 21.43         | 20.52    | 24.53   | 21.07         | 18.58    | 22.36 |
